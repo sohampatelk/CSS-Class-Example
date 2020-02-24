@@ -1,0 +1,39 @@
+
+
+h3{
+    /* color: #fff; */
+    /* font-size: 50px; */
+    line-height: 1.6em;
+    padding-top: 20px;
+} 
+#showcase img{
+    float: left;
+}
+#showcase ul{
+    padding-left: 320px;
+}
+
+/* Technical skills para styles */
+#main-2 p{
+    padding: 0 20px;
+}
+
+@media(max-width:500px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+    #showcase img{
+        width: 100%;
+        float: none;
+    }
+    #showcase ul{
+        padding-left: 20px;
+        width: 100%;
+        float: none;
+    }
+}

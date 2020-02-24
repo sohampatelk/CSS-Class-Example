@@ -1,0 +1,88 @@
+/* This css containe dstyle for body, container, header, naigation bar, footer.
+This style is common for all pages. */
+/* Common Body Style */
+body{
+    background-image: url('../images/showcase.jpg');
+    background-position: center left;
+    background-color: #f4f4f4;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+/* Common Container Style for All pages */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url('../images/showcase.jpg'); */
+}
+
+/* Main header info of resume 
+name Soham Patel and address  */
+#main-header{
+    background-color: coral;
+    color: #fff;
+}
+
+/* Navigation bar style */
+#navbar{
+    background-color: rgb(85, 83, 83);
+    color: #fff;  
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#navbar a:hover{
+    color: coral;
+    text-decoration: none;
+}
+
+
+
+
+/* Academic Qualification Styles main and sidebar */
+#main{
+    float: left;
+    width: 70%;
+    /* font-size: 18px; */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: rgb(85, 83, 83);
+    /* font-size: 18px; */
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Button id for top */
+#button-top{
+    float: right;
+}
+
+/* Footer Style */
+#main-footer{
+    background: #333;
+    color:#fff;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+}

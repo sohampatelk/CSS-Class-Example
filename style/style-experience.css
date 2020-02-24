@@ -1,0 +1,15 @@
+@media(max-width:500px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+    #showcase ul{
+        padding-left: 20px;
+        width: 100%;
+        float: none;
+    }
+}
