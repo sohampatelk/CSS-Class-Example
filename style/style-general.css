@@ -76,6 +76,7 @@ name Soham Patel and address  */
 /* Button id for top */
 #button-top{
     float: right;
+    //position: fixed;
 }
 
 /* Footer Style */
