@@ -1,5 +1,4 @@
 
-
 h3{
     /* color: #fff; */
     /* font-size: 50px; */
@@ -28,7 +27,7 @@ h3{
         float: none;
     }
     #showcase img{
-        width: 100%;
+        width: auto;
         float: none;
     }
     #showcase ul{

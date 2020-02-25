@@ -55,14 +55,14 @@ name Soham Patel and address  */
 
 
 /* Academic Qualification Styles main and sidebar */
-#main{
+.main{
     float: left;
     width: 70%;
     /* font-size: 18px; */
     padding: 0 20px;
     box-sizing: border-box;
 }
-#sidebar{
+.sidebar{
     float: right;
     width: 30%;
     background-color: rgb(85, 83, 83);
