@@ -1,13 +1,17 @@
+/* .container ul{
+    padding-left: 15px;
+} */
+
 @media(max-width:500px){
-    #main{
+    .main{
         width: 100%;
         float: none;
     }
-    #sidebar{
+    .sidebar{
         width: 100%;
         float: none;
     }
-    #showcase ul{
+    .container ul{
         padding-left: 20px;
         width: 100%;
         float: none;
