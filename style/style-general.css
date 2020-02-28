@@ -32,6 +32,10 @@ name Soham Patel and address  */
 #navbar{
     background-color: rgb(85, 83, 83);
     color: #fff;  
+    /* top:100px; */
+    position: sticky;
+    /* position: -webkit-sticky; */
+    top:0px;
 }
 #navbar ul{
     padding: 0;
@@ -76,14 +80,27 @@ name Soham Patel and address  */
 /* Button id for top */
 #button-top{
     float: right;
-    //position: fixed;
+    position: fixed;
 }
 
 /* Footer Style */
 #main-footer{
-    background: #333;
-    color:#fff;
+    /* background: #333; */
+    color: rgb(85, 83, 83);
     text-align: center;
     padding: 5px;
     margin-top: 40px;
 }
+.flex-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-link a{
+    padding: 10px;
+    color:  rgb(85, 83, 83);
+    /* height: 100px; */
+    
+}
+
